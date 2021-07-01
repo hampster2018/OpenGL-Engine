@@ -83,6 +83,7 @@
     <Library Include="deps\lib\glfw3_x64.lib" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\shader.glsl" />
+    <None Include="res\shader_Texture.glsl" />
+    <None Include="gfx\Texture.h" />
   </ItemGroup>
 </Project>

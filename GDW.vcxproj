@@ -212,7 +212,8 @@
     <Library Include="deps\lib\glfw3_x64.lib" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\shader.glsl" />
+    <None Include="gfx\Texture.h" />
+    <None Include="res\shader_Texture.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

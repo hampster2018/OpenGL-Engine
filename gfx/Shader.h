@@ -47,6 +47,11 @@ namespace gfx
 		{
 			SetUniform(glUniform2f, name, x, y);
 		}
+		void SetUniform1iv(const std::string& name, uint length,
+			const int* const data)
+		{
+			SetUniform(glUniform1iv, name, length, data);
+		}
 	private:
 		struct ShaderSources
 		{
